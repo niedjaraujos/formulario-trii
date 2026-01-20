@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Formulário de Orçamento Trii</title>
+  </head>
+  <body>
+    <section>
+      <h2>Peça seu orçamento agora mesmo!</h2>
+      <form>
+        <div class="form-area">
+          <div class="form-group">
+            <input type="text" id="nome" name="nome" placeholder="Nome" />
+            <label for="nome">Nome</label>
+          </div>
+
+          <div class="form-group">
+            <input type="email" id="email" name="email" placeholder="E-mail" />
+            <label for="email">E-mail</label>
+          </div>
+
+          <div class="form-group">
+            <input
+              type="tel"
+              id="telefone"
+              name="telefone"
+              placeholder="Telefone"
+            />
+            <label for="telefone">Telefone</label>
+          </div>
+          <div class="form-group">
+            <label for="servico"></label>
+            <select name="servico" id="servico">
+              <option value="" class="option-styles">
+                Escolha o serviço que deseja
+              </option>
+              <option value="opção 1">Opção 1</option>
+              <option value="opçao 2">Opção 2</option>
+            </select>
+          </div>
+
+          <label for="mensagem"></label>
+          <textarea
+            name="mensagem"
+            id="mensagem"
+            placeholder="Mensagem"
+          ></textarea>
+        </div>
+
+        <div class="form-submit">
+          <span></span>
+          <input type="submit" class="button" value="Enviar" />
+        </div>
+      </form>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
